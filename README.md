@@ -24,8 +24,20 @@ https://stackoverflow.com/questions/15081542/python-creating-objects
 
   OBJECT CONCEPT:     
   MODEL      
-  MODEL.SubArea   
-  MODEL.SubAreas.Watercourse   
+  MODEL.SubArea
+               .PERV
+               .PERV.PervHo
+               .PERV.PervLR
+               .PERV.PervRP
+               .PERV.PervVLR
+                            .PervIL
+               .PERV.PervVRP
+                            .PervIL
+               
+  MODEL.SubAreas.Watercourse
+                 Watercourse.NonLinQ
+                 Watercourse.Musk
+                 Watercourse.Delay
   MODEL.SubAreas.Storage.Local   
   MODEL.SubAreas.Storage.Outlet   
   MODEL.SubAreas.RecordedData   
