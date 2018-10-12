@@ -14,10 +14,10 @@ PyWBNMts, will still operate with the parameters as it does in WBNM2017, however
 DESIGNING CLASS OBJECTS for Hydrologic Model:
 https://stackoverflow.com/questions/15081542/python-creating-objects 
 
--	A Catchment {Object} includes 
-            o	multiple Sub Area {Object} that include a 
-                      	Watercourse Segment {Object} and
-                      	Local Storage {Object}
-                      	Outlet Storage {Object}
-                      	Recorded Data {Object}
-            o	Rainfall Event {Object}
+     A Catchment {Object} includes
+                 multiple Sub Area {Object} that include a 
+                       Watercourse Segment {Object} and
+                       Local Storage {Object}
+                       Outlet Storage {Object}
+                       Recorded Data {Object}
+                 Rainfall Event {Object}
