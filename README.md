@@ -21,3 +21,14 @@ https://stackoverflow.com/questions/15081542/python-creating-objects
                        Outlet Storage {Object}
                        Recorded Data {Object}
                  Rainfall Event {Object}
+
+OBJECT CONCEPT:
+MODEL
+MODEL.SubArea
+MODEL.SubAreas.Watercourse
+MODEL.SubAreas.Storage.Local
+MODEL.SubAreas.Storage.Outlet
+MODEL.SubAreas.RecordedData
+MODEL.Rainfall
+MODEl.Rainfall.Losses
+MODEl.Rainfall.Recorded
