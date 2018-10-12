@@ -8,3 +8,16 @@ That is the current versions of WBNM have always had the primary loop being the 
 
 The existing Fortran Code is currently housed here: http://wbnm.com.au/index.php/downloads/
 With plans to move it to here: https://github.com/tedrigby/wbnm2016 
+
+PyWBNMts, will still operate with the parameters as it does in WBNM2017, however the aim is to have an option such that the source of the parameters may be derived automatically from GIS data such as described below. For example rather than the user entering the Area for each sub area, sub area polygons may be used to determine the area.
+
+DESIGNING CLASS OBJECTS for Hydrologic Model:
+https://stackoverflow.com/questions/15081542/python-creating-objects 
+
+-	A Catchment {Object} includes 
+o	multiple Sub Area {Object} that include a 
+	Watercourse Segment {Object} and
+	Local Storage {Object}
+	Outlet Storage {Object}
+	Recorded Data {Object}
+o	Rainfall Event {Object}
