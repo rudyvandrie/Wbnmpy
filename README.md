@@ -15,9 +15,9 @@ DESIGNING CLASS OBJECTS for Hydrologic Model:
 https://stackoverflow.com/questions/15081542/python-creating-objects 
 
 -	A Catchment {Object} includes 
-o	multiple Sub Area {Object} that include a 
-	Watercourse Segment {Object} and
-	Local Storage {Object}
-	Outlet Storage {Object}
-	Recorded Data {Object}
-o	Rainfall Event {Object}
+            o	multiple Sub Area {Object} that include a 
+                      	Watercourse Segment {Object} and
+                      	Local Storage {Object}
+                      	Outlet Storage {Object}
+                      	Recorded Data {Object}
+            o	Rainfall Event {Object}
