@@ -25,22 +25,22 @@ https://stackoverflow.com/questions/15081542/python-creating-objects
   OBJECT CONCEPT:     
   MODEL      
   MODEL.SubArea
-               .PERV
-               .PERV.PervHo
-               .PERV.PervLR
-               .PERV.PervRP
-               .PERV.PervVLR
-                            .PervIL
-               .PERV.PervVRP
-                            .PervIL
+               .PERV     
+               .PERV.PervHo     
+               .PERV.PervLR     
+               .PERV.PervRP    
+               .PERV.PervVLR    
+                            .PervIL    
+               .PERV.PervVRP    
+                            .PervIL    
                
   MODEL.SubAreas.Watercourse
-                 Watercourse.NonLinQ
-                 Watercourse.Musk
-                 Watercourse.Delay
-  MODEL.SubAreas.Storage.Local   
-  MODEL.SubAreas.Storage.Outlet   
-  MODEL.SubAreas.RecordedData   
+                 Watercourse.NonLinQ    
+                 Watercourse.Musk    
+                 Watercourse.Delay    
+  MODEL.SubAreas.Storage.Local       
+  MODEL.SubAreas.Storage.Outlet       
+  MODEL.SubAreas.RecordedData       
   MODEL.Rainfall    
-  MODEl.Rainfall.Losses    
-  MODEl.Rainfall.Recorded   
+  MODEl.Rainfall.Losses       
+  MODEl.Rainfall.Recorded       
